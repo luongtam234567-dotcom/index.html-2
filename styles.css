@@ -178,21 +178,49 @@ nav {
 .modification__icons {
     display: flex;
     width: 100%;
+    max-width: 1200px;
     flex-wrap: wrap;
+    /* border: 2px solid red; */
+    cursor: pointer;
 }
 
 .modification__icon {
-    width: 30%;
+    width: 25%;
     position: relative;
-    display: flex;
     flex-direction: column;
-    /* padding: 16px; */
     align-items: center;
+    display: flex;
+    padding: 12px 12px;
+    /* border: 2px solid blue; */
 }
 
 .modification__icon--img {
-    width: 90px;
-    max-width: 200px;  
+    width: 120%;
+    max-width: 100%;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+}
+
+.modification__name {
+    position:  absolute;
+    bottom: -9px;
+    font-size: 19px;
+    font-weight: 700;
+    transform: scale(1);
+    transition: all 300ms ease;
+}
+
+.modification__icon:hover, .modification__name {
+    transform: rotate(1);
+}
+
+.modification__icon:hover {
+    filter: brightness(90%);
+    transform: scale(0.9);
+}
+
+.modification__icon:active{
+    opacity: 0.6;
 }
 
 
