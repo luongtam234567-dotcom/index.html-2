@@ -231,33 +231,29 @@ nav {
     opacity: 0.6;
 }
 
-/* TITLE FOR US */
+/* PROJECTS */
 
-title {
+.container {
+    margin-bottom: 160px;
     display: flex;
-    vertical-align: bottom;
-    text-align: center;
 }
 
 .subcription__title {
     text-align: center;
-    /* justify-content: space-between; */
-    font-size: 94px;
-    /* font-style: italic; */
-    margin: 126px 0 0 0;
+    font-size: 80px;
+    font-style: italic;
 }
 
 em {
     color: #0c86cd;
 }
 
-/* PROJECTS */
-
-.upgrade__img {
-   width: 80%;
-   max-width: 120%;
+.upgrade__image {
+    width: 50%;
+    margin: 100px 0 0 0;
 }
 
-.upgrade__title {
-    text-align: center;
+.contact__upgrade--form {
+    display: flex;
+    position: relative;
 }
