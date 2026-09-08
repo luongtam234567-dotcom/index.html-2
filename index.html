@@ -1,238 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TLV custom shop</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TLV Custom Shop</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-    
+
 <body>
-  <section id="landing">
-     <nav>
+  <div id="landing">
+
+    <!-- Navigation -->
+    <nav>
       <figure>
-        <img id="personal-logo" src="./assets/logo.svg" alt="">
+        <img
+          id="personal-logo"
+          src="./assets/logo.svg"
+          alt="TLV Custom Shop logo"
+        >
       </figure>
+
       <ul class="nav__link--list">
         <li class="nav__link click">
-          <a href="#" class="
-          nav__link--anchor 
-          link__hover-effect 
-          link__hover-effect--black
-          ">About</a>
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+          >
+            About
+          </a>
         </li>
+
         <li class="nav__link click">
-          <a href="#" class="
-          nav__link--anchor 
-          link__hover-effect 
-          link__hover-effect--black
-          ">Contact</a>
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+          >
+            Contact
+          </a>
         </li>
+
         <li class="nav__link click">
-          <a href="#" class="
-          nav__link--anchor 
-          link__hover-effect 
-          link__hover-effect--black
-          ">Email</a>
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+          >
+            Email
+          </a>
         </li>
+
         <li class="nav__link click">
-          <a href="#" class="
-          nav__link--anchor 
-          link__hover-effect 
-          link__hover-effect--black
-          ">Projects</a>
+          <a
+            href="#"
+            class="nav__link--anchor link__hover-effect link__hover-effect--black"
+          >
+            Projects
+          </a>
         </li>
+
         <li class="nav__link click">
-          <button class="nav__link--primary">sign up</button>
+          <button type="button" class="nav__link--primary">
+            Sign Up
+          </button>
         </li>
       </ul>
-     </nav>
-     <header>
-       <div class="container">
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
         <div class="header__row">
+
           <div class="header__description">
-            <h1>This is my first web page <span class="color">for you.</span></h1>
+            <h1>
+              This is my first web page
+              <span class="color">for you.</span>
+            </h1>
+
             <p class="header__description--para">
               I also would like to create any project of the car and
-              to build of widebody and to make it perfectly imposible, and would like 
-              to custom exhaust.
+              to build a widebody and make it perfectly impossible,
+              and I would like to customize the exhaust.
             </p>
+
             <div class="modification__icons">
+
               <figure class="modification__icon">
-                <img class="modification__icon--img" src="https://png.pngtree.com/png-vector/20241120/ourmid/pngtree-colorful-modified-car-with-artistic-graffiti-design-png-image_14499086.png">
-                <span class="modification__name">Upgrade</span>
+                <img
+                  class="modification__icon--img"
+                  src="https://png.pngtree.com/png-vector/20241120/ourmid/pngtree-colorful-modified-car-with-artistic-graffiti-design-png-image_14499086.png"
+                  alt="Modified car"
+                >
+                <figcaption class="modification__name">
+                  Upgrade
+                </figcaption>
               </figure>
+
               <figure class="modification__icon">
-                <img class="modification__icon--img" src="https://png.pngtree.com/png-vector/20250123/ourmid/pngtree-racing-car-wide-body-modification-jdm-look-sport-and-drift-design-vector-png-image_15318287.png">
-                <span class="modification__name">Tuning</span>
+                <img
+                  class="modification__icon--img"
+                  src="https://png.pngtree.com/png-vector/20250123/ourmid/pngtree-racing-car-wide-body-modification-jdm-look-sport-and-drift-design-vector-png-image_15318287.png"
+                  alt="Widebody racing car"
+                >
+                <figcaption class="modification__name">
+                  Tuning
+                </figcaption>
               </figure>
+
               <figure class="modification__icon">
-                <img class="modification__icon--img" src="https://stickershop.line-scdn.net/stickershop/v1/product/7804830/LINEStorePC/main.png?v=1">
-                <span class="modification__name">Building</span>
+                <img
+                  class="modification__icon--img"
+                  src="https://stickershop.line-scdn.net/stickershop/v1/product/7804830/LINEStorePC/main.png?v=1"
+                  alt="Car building"
+                >
+                <figcaption class="modification__name">
+                  Building
+                </figcaption>
               </figure>
+
               <figure class="modification__icon">
-                <img class="modification__icon--img" src="https://static.vecteezy.com/system/resources/previews/003/559/541/non_2x/sports-car-drift-red-color-vector.jpg">
-                <span class="modification__name">Wrap body</span>
+                <img
+                  class="modification__icon--img"
+                  src="https://static.vecteezy.com/system/resources/previews/003/559/541/non_2x/sports-car-drift-red-color-vector.jpg"
+                  alt="Red drift car"
+                >
+                <figcaption class="modification__name">
+                  Wrap Body
+                </figcaption>
               </figure>
+
             </div>
           </div>
-           <figure class="image__wrapper">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0rgqac25gOD6AWXQJdC2wo8y8WBF03QpdZFTkMkNzQw&amp;s=10" data-csiid="8cd-auuRJL-tqtsPzK6PyAw_51" data-atf="4">
+
+          <figure class="image__wrapper">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0rgqac25gOD6AWXQJdC2wo8y8WBF03QpdZFTkMkNzQw&amp;s=10"
+              alt="Customized car"
+            >
           </figure>
-         </div>
+
         </div>
-       </div>
-     </header>
-     <main>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- Projects / Contact Section -->
       <section id="projects">
-         <div class="container">
-           <div class="row">
+
+        <div class="container">
+          <div class="row">
+
             <h2 class="subcription__title">
-               How does it make on the <em>(projects)</em>
+              How does it make on the <em>(projects)</em>
             </h2>
+
             <p class="para__project">
-               This is all you need to <span class="target">contact me</span> and <em>make a deal</em> 
-               with the price on all products.
+              This is all you need to
+              <span class="target">contact me</span>
+              and <em>make a deal</em>
+              with the price on all products.
             </p>
+
             <div class="projects__content">
+
               <figure>
-               <img class="upgrade__image" src="https://shop.pasmag.com/cdn/shop/products/2020-PAS-Tuning-Essentials-Performance-8-00_1080x.jpg?v=1614806264">
-             </figure>
-             <div class="projects__form">
-               <h3 class="title__upgrade">
-                 Let see it now !
-               </h3>
-              <form id="contact__form">
-               <div class="upgrade__item">
-                <label class="upgrade__item--label">Customer name</label>
-                <input class="input" name="user__name" type="text"></input">
-               </div>
-               <div class="upgrade__item">
-                <label class="upgrade__item--label">E-mail</label>
-                <input class="input" name="user__name" type="text"></input>
-               </div>
-               <div class="upgrade__item">
-                <label class="upgrade__item--label">Model</label>
-                <input class="input" name="user__name" type="text"></input>
-               </div>
-               <div class="upgrade__item">
-                <label class="upgrade__item--label">Vehicle year</label>
-                <input class="input" name="user__name" type="text"></input>
-               </div>
-               <div class="upgrade__item">
-                <label class="upgrade__item--label">Mesasage &#183; Describe</label>
-                <textarea class="input" name="user__name" type="text"></textarea>
-               </div>
-               <button class="upgrade__button click">Send it to me</button>
-             </form>
+                <img
+                  class="upgrade__image"
+                  src="https://shop.pasmag.com/cdn/shop/products/2020-PAS-Tuning-Essentials-Performance-8-00_1080x.jpg?v=1614806264"
+                  alt="Car tuning parts"
+                >
+              </figure>
+
+              <div class="projects__form">
+
+                <h3 class="title__upgrade">
+                  Let's see it now!
+                </h3>
+
+                <form id="contact__form">
+
+                  <div class="upgrade__item">
+                    <label
+                      class="upgrade__item--label"
+                      for="customer-name"
+                    >
+                      Customer Name
+                    </label>
+                    <input
+                      class="input"
+                      id="customer-name"
+                      name="customer_name"
+                      type="text"
+                      autocomplete="name"
+                      required
+                    >
+                  </div>
+
+                  <div class="upgrade__item">
+                    <label
+                      class="upgrade__item--label"
+                      for="email"
+                    >
+                      E-mail
+                    </label>
+                    <input
+                      class="input"
+                      id="email"
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      required
+                    >
+                  </div>
+
+                  <div class="upgrade__item">
+                    <label
+                      class="upgrade__item--label"
+                      for="model"
+                    >
+                      Model
+                    </label>
+                    <input
+                      class="input"
+                      id="model"
+                      name="model"
+                      type="text"
+                      required
+                    >
+                  </div>
+
+                  <div class="upgrade__item">
+                    <label
+                      class="upgrade__item--label"
+                      for="vehicle-year"
+                    >
+                      Vehicle Year
+                    </label>
+                    <input
+                      class="input"
+                      id="vehicle-year"
+                      name="vehicle_year"
+                      type="number"
+                      min="1886"
+                      max="2100"
+                    >
+                  </div>
+
+                  <div class="upgrade__item">
+                    <label
+                      class="upgrade__item--label"
+                      for="message"
+                    >
+                      Message · Describe
+                    </label>
+                    <textarea
+                      class="input"
+                      id="message"
+                      name="message"
+                      rows="5"
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="upgrade__button click"
+                  >
+                    Send it to me
+                  </button>
+
+                </form>
+              </div>
+
             </div>
           </div>
-         </div>
-         <div class="upgrade">
+        </div>
+
+        <!-- Upgrade Section -->
+        <section class="upgrade">
+
           <div class="container">
-            <!-- <div class="row"> -->
-              <h2 class="upgrade__car">
-                Upgrade of <em class="color">(Stage)</em>
-              </h2>
-              <p class="item__para">
-                That is all you need to <b class="organ">modification your car</b>
-                and also to make more <b class="organ">horsepower</b> and <b class="organ">stock</b> to 
-                <strong class="organ">make the car better.</strong>
-              </p>
-             <div class="wrapper">
-              <div class="table__upgrade">
-               <div class="cards">
-                <div class="card__top">
-                <div class="card__stage-1">
-                 <h3 class="stage__name">Stage 1</h3>
-                  <ol class="list__name">
-                    <li>ECU tuning/remap</li>
-                    <li>air filter</li>
-                    <li>restrictive exhaust</li>
-                    <li>Spark plugs</li>
-                  </ol>
-                  </div>
-                </div>
-                
-                 <div class="card__middle">
-                  <div class="card__stage-2">
-                  <h3 class="stage__name">Stage 2</h3>
-                   <ol class="list__name">
-                    <li>Upgrade Downpipe</li>
-                    <li>Upgrade intercooler</li>
-                    <li>intake air kit</li>
-                    <li>Upgrade clutch kit</li>
-                    <li>Upgrade Transmission</li>
-                   </ol>
-                   </div>
-                  </div>
 
-                 <div class="card__bottom">
-                  <div class="card__stage-3">
-                  <h3 class="stage__name">Stage 3</h3>
-                   <ol class="list__name">
-                    <li>Turbo kit</li>
-                    <li>Supercharger</li>
-                    <li>fueling system</li>
-                    <li>Hi/flow fuel injector</li>
-                    <li>Upgrade fuel pump</li>
-                    <li>Upgrade fuel rail</li>
-                    <li>Engine upgrade</li>
-                   </ol>
-                  </div>
-                 </div>
-
-              </div>
-              </div>
-             </div>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="build">
-          <div class="build__car">
-             <h2 class="build__project">
-               Built <em class="color">( widebody kit)</em> and <em class="color">(mod part kit)</em>
+            <h2 class="upgrade__car">
+              Upgrade of <em class="color">(Stage)</em>
             </h2>
-            <p class="para">All you need to know</p>
-            <div class="section__build">
-           <figure class="img__two">
-            <img class="upgrade__wrapper" src="//pandemusa.com/cdn/shop/products/IMG_0779_300x.JPG?v=1502860857">
-          </figure> 
-          <h3 class="section__upgrade">
-              Create an projects into your car, and make it <span>(Perfectly)</span> and <span>(Argressive)</span>
-          </h3>
-          <div class="step">  
-          <div class="card__step-first">
-            <div class="card__title-step">
-              <h4 class="step__title">Step 1</h4>
-              <ol class="list__one">
-                <li class="step__one-list">to verify vehicle</li>
-                <li class="step__one-list">come up with the idea</li>
-              </ol>
+
+            <p class="item__para">
+              That is all you need to
+              <b class="organ">modify your car</b>
+              and also to make more
+              <b class="organ">horsepower</b>
+              and <b class="organ">stock</b>
+              to
+              <strong class="organ">make the car better.</strong>
+            </p>
+
+            <div class="wrapper">
+              <div class="table__upgrade">
+
+                <div class="cards">
+
+                  <!-- Stage 1 -->
+                  <article class="card__top">
+                    <div class="card__stage-1">
+                      <h3 class="stage__name">Stage 1</h3>
+
+                      <ol class="list__name">
+                        <li>ECU tuning/remap</li>
+                        <li>Air filter</li>
+                        <li>Restrictive exhaust</li>
+                        <li>Spark plugs</li>
+                      </ol>
+                    </div>
+                  </article>
+
+                  <!-- Stage 2 -->
+                  <article class="card__middle">
+                    <div class="card__stage-2">
+                      <h3 class="stage__name">Stage 2</h3>
+
+                      <ol class="list__name">
+                        <li>Upgrade downpipe</li>
+                        <li>Upgrade intercooler</li>
+                        <li>Intake air kit</li>
+                        <li>Upgrade clutch kit</li>
+                        <li>Upgrade transmission</li>
+                      </ol>
+                    </div>
+                  </article>
+
+                  <!-- Stage 3 -->
+                  <article class="card__bottom">
+                    <div class="card__stage-3">
+                      <h3 class="stage__name">Stage 3</h3>
+
+                      <ol class="list__name">
+                        <li>Turbo kit</li>
+                        <li>Supercharger</li>
+                        <li>Fueling system</li>
+                        <li>High-flow fuel injectors</li>
+                        <li>Upgrade fuel pump</li>
+                        <li>Upgrade fuel rail</li>
+                        <li>Engine upgrade</li>
+                      </ol>
+                    </div>
+                  </article>
+
+                </div>
+              </div>
             </div>
-            <div class="card__step-second">
-            <div class="card__title-step">
-              <h4 class="step__title">Step 2</h4>
-              <ol class="list__one">
-                <li class="step__one-list">to verify vehicle</li>
-                <li class="step__one-list">come up with the idea</li>
-              </ol>
-            </div>
-            <div class="card__step-third">
-            <div class="card__title-step">
-              <h4 class="step__title">Step 3</h4>
-              <ol class="list__one">
-                <li class="step__one-list">to verify vehicle</li>
-                <li class="step__one-list">come up with the idea</li>
-              </ol>
-            </div>
-           </div> 
+
           </div>
-         </div>
-         </div>
-        </div>
-     </div>
-    </div>
-  </section>
- </main>
+        </section>
+
+        <!-- Build Section -->
+        <section class="build">
+
+          <div class="build__car">
+
+            <h2 class="build__project">
+              Built
+              <em class="color">(widebody kit)</em>
+              and
+              <em class="color">(mod part kit)</em>
+            </h2>
+
+            <p class="para">
+              All you need to know
+            </p>
+
+          </div>
+
+          <div class="section__build">
+
+            <figure class="img__two">
+              <img
+                class="upgrade__wrapper"
+                src="//pandemusa.com/cdn/shop/products/IMG_0779_300x.JPG?v=1502860857"
+                alt="Widebody car kit"
+              >
+            </figure>
+
+            <div>
+
+              <h3 class="section__upgrade">
+                Create a project for your car and make it
+                <span>(Perfectly)</span>
+                and
+                <span>(Aggressive)</span>
+              </h3>
+
+              <div class="step">
+
+                <!-- Step 1 -->
+                <article class="card__step-first">
+                  <div class="card__title-step">
+
+                    <h4 class="step__title">
+                      Step 1
+                    </h4>
+
+                    <ol class="list__one">
+                      <li class="step__one-list">
+                        Verify vehicle
+                      </li>
+                      <li class="step__one-list">
+                        up with idea
+                      </li>
+                    </ol>
+
+                  </div>
+                </article>
+
+                <!-- Step 2 -->
+                <article class="card__step-second">
+                  <div class="card__title-step">
+
+                    <h4 class="step__title">
+                      Step 2
+                    </h4>
+
+                    <ol class="list__one">
+                      <li class="step__one-list">
+                        make a deal
+                      </li>
+                      <li class="step__one-list">
+                        set up pricing
+                      </li>
+                    </ol>
+
+                  </div>
+                </article>
+
+                <!-- Step 3 -->
+                <article class="card__step-third">
+                  <div class="card__title-step">
+
+                    <h4 class="step__title">
+                      Step 3
+                    </h4>
+
+                    <ol class="list__one">
+                      <li class="step__one-list">
+                        Start project
+                      </li>
+                      <li class="step__one-list">
+                        to complete
+                      </li>
+                    </ol>
+
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>
