@@ -588,10 +588,13 @@ span {
     align-items: center;
 }
 
-.card__title-step {
+.card__title-step--one,
+.card__title-step--two,
+.card__title-step--three{
    border-style: solid;
-   margin-top: 45px;
-   margin-right: 80px;
+   margin-top: 36px;
+   margin-bottom: 40px;
+   margin-right: 60px;
 }
 
 .step__title {
@@ -607,7 +610,8 @@ span {
 
 
 .step__one-list {
-   
+   font-weight: 400;
+   font-size: 14px;
 }
 
 .card__step-first li, 
@@ -621,11 +625,14 @@ span {
     text-align: center;
 }
 
-
-.card__step-first {
-    border-color:#d403b1
+.card__title-step--one {
+    border-color: #a4c017;
 }
 
-.card__step-second {
-    border-color: #1880cf;
+.card__title-step--two {
+    border-color: #28d0ba;
+}
+
+.card__title-step--three {
+    border-color: #827fc8;
 }
