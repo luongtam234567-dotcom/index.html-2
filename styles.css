@@ -155,7 +155,7 @@ textarea {
     cursor: pointer;
 }
 
-.upgrade__button {
+.button {
     display: block;  
 }
 
@@ -547,7 +547,9 @@ figure {
     display: block;
     justify-content: space-between;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 1900px;
 }
 
 .para__engine {
@@ -557,10 +559,11 @@ figure {
 }
 
 .image__engine-wrapper {
-    display: block;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     justify-content: space-between;
-    margin-top: 60px;
-    width: auto;
+    align-items: center;
+    margin-top: 80px;
 }
 
 .engine__image {
@@ -580,10 +583,11 @@ figure {
 }
 
 .engine__rebuild-header {
+    display: block;
     position: absolute;
-    bottom: -109%;
-    right: 61%;
-    transition: opacity 300ms ease;
+    /* bottom: -109%; */
+    /* right: 61%; */
+    /* transition: opacity 300ms ease; */
 }
 
 .image__engine-wrapper:hover .engine__rebuild-header {
@@ -598,20 +602,35 @@ figure {
     color:#0c86cd
 }
 
-/* .card__engine {
-    width: 200%;
-    margin-top: 60px;
-    position: absolute;
-    bottom: 370%;
-    left: 190%;
-} */
-
 .topic__engine {
-    display: flex;
+    width: 60%;
+    margin-top: 60px;
+    position: relative;
+    bottom: 100%;
+    left: 34%;
+    align-items: center;
+
+}
+
+.card__engine {
+    border: 2px solid rgb(34, 190, 34);
+    padding-left: 34px;
 }
 
 .topic__of-list {
     font-size: 50px;
+}
+
+.topic-para {
+    margin-top: 23px;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.topic__em {
+    font-size: 30px;
 }
 
 /* BUILT */
